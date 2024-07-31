@@ -1,0 +1,21 @@
+Normalizations used: we dont want stuff to oscillate and speed up training.
+
+    Batch Norm: applied over batch and gives the mean and variance for
+    the batches
+
+    Layer Norm: outputs of Layer are normalized i.e across a layer the outputs of features are made 
+    to be in range 0,1
+
+    Group Norm: The features are grouped for an input from layer and then normalized.
+    Basically convolution gives feature which are not dependent entirely on layer input.
+    So Features are grouped together and then normalized. features closer are made to same dist.
+
+
+Activation Function:
+
+    SiLU:
+
+    sigmoid:
+
+    
+
